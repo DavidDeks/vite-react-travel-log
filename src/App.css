@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav {
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+  font-size: small;
+  background-color: #AA3939;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.nav--icon {
+  fill: white;
+  width: 3rem;
+}
+
+.cards--list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards--hr {
+  border: 1px solid black;
+  clear: left;
+  opacity: 0.2;
+}
+
+.card {
+  margin-top: 2rem;
+  padding-left: 4rem;
+}
+
+.card--image {
+  width: 12rem;
+  height: 18rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  float: left;
+  margin-bottom: 2rem;
+}
+
+.card--info {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  flex-direction: column;
+}
+
+.card--details {
+ margin-bottom: 0rem; 
+}
+
+.card--pin {
+  height: 1rem;
+  fill: #AA3939;
+}
+
+.card--state {
+  padding-left: 0.25rem;
+}
+
+.card--map {
+  padding-left: 1rem;
+}
+
+.card--destination {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.card--date {
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+.card--desc {
+  margin-top: 0rem;
+}
+
